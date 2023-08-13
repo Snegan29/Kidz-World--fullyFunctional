@@ -31,14 +31,13 @@
 .kw-back{
     background-image: url("https://github.com/Snegan29/kidz-world-html-boilerplate/blob/main/assets/kw-background.png?raw=true");
     background-repeat: no-repeat;
-    background-position: center right;
     background-size: cover;
     width: 100%;
-    height: 55vh;
+    
 }
 
 header {
-    padding: 60px;
+    padding: 20px;
     margin: 20px;
     font-size: 30px;
     color: white;
@@ -62,7 +61,7 @@ h5 {
 .Flexing {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-around;
     padding: 20px;
 }
@@ -106,4 +105,32 @@ footer{
     height: 150px;
     width: 150px;
     border-radius: 100px;
+}
+
+@media (max-width:500px) {
+    .Flexing {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* justify-content: space-around; */
+    }
+    .kw-back{
+        background-image: url("https://github.com/Snegan29/kidz-world-html-boilerplate/blob/main/assets/kw-background.png?raw=true");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 15vh;
+    }
+    header{
+        padding-bottom: 0%;
+        font-size: 8px;
+        color: white;   
+    }
+
+    .Part-1 div {
+        padding: 5px;
+    }
+
+    >
+
 }
