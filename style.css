@@ -37,7 +37,7 @@
 }
 
 header {
-    padding: 20px;
+    padding: 70px;
     margin: 20px;
     font-size: 30px;
     color: white;
@@ -112,17 +112,17 @@ footer{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        /* justify-content: space-around; */
+        justify-content: space-around;
     }
     .kw-back{
         background-image: url("https://github.com/Snegan29/kidz-world-html-boilerplate/blob/main/assets/kw-background.png?raw=true");
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         width: 100%;
-        height: 15vh;
+
     }
     header{
-        padding-bottom: 0%;
+        padding-top: 7%;
         font-size: 8px;
         color: white;   
     }
@@ -131,6 +131,5 @@ footer{
         padding: 5px;
     }
 
-    >
-
+    
 }
