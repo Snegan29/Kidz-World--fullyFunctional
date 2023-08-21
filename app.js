@@ -26,9 +26,9 @@ inCart.addEventListener("click", function(){
         const selected = books[index];
         const bookName = selected.querySelector(".bookName").textContent;
         const author = selected.querySelector(".author").textContent;
-        const price = selected.querySelector(".price").textContent ;
+        // const price = selected.querySelector(".price").textContent ;
 
-        console.log(bookName,author,price);
+        console.log("Item Name:",bookName,author,"Quantity:",count);
     };
 });
 
@@ -41,9 +41,9 @@ inCart.addEventListener("click", function() {
         const price = parseFloat(selected.querySelector(".price").textContent.slice(1));
 
         total += price; 
-        console.log(total)
+        
     }
-
     const cartTotal = document.querySelector("#cartTotal");
     cartTotal.textContent = `Total: $${total.toFixed(2)}`;
+    console.log("The total amount is ",total)
 });
