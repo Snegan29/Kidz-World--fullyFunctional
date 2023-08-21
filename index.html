@@ -11,7 +11,8 @@
         <div class="heading">
             <img id="kw-logo" src="https://github.com/Snegan29/kidz-world-html-boilerplate/blob/main/assets/kw-logo.png?raw=true" alt="">
             <div class="header-1">
-                <img id="cartlogo" src="https://github.com/Snegan29/kidz-world-html-boilerplate/blob/main/assets/cart-icon.png?raw=true" alt=""><p>Cart Items(0)</p>
+                <button ><img id="cartlogo" src="https://github.com/Snegan29/kidz-world-html-boilerplate/blob/main/assets/cart-icon.png?raw=true" alt=""><p id="cartitems">Cart Items(0)</p></button>
+                <div id="cartTotal">Total: $0</div>
             </div>
         </div>
     </nav>
@@ -27,209 +28,237 @@
         <div class="Part-1">
             <h1>Discover New Books</h1>
                 <div class="Flexing">
-                    <div>
+                    <div class="bookclass">
                         <div>
                             <img id="items" src="https://github.com/Snegan29/kidz-world-html-boilerplate/blob/main/assets/book1.png?raw=true" alt="">
-                            <h3>This was our pact</h3>
-                            <h4>Ryan Andrews</h4>
+                            <h3 class="bookName">This was our pact</h3>
+                            <h4 class="author">Ryan Andrews</h4>
                         </div>
                         <div class="money">
-                            <p>$7.49</p>
-                            <div class="cart">
-                                <h5>Add</h5>
-                                <img id="cart-logo" src="https://github.com/Snegan29/kidz-world-html-boilerplate/blob/main/assets/cart-icon-white.png?raw=true" alt="">
+                            <p class="price">$7.49</p>
+                            <div >
+                                <button class="cart">
+                                    <h5>Add</h5>
+                                    <img id="cart-logo" src="https://github.com/Snegan29/kidz-world-html-boilerplate/blob/main/assets/cart-icon-white.png?raw=true" alt="">
+                                </button>
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div class="bookclass">
                         <div>
                             <img id="items"  src="https://github.com/Snegan29/kidz-world-html-boilerplate/blob/main/assets/book2.png?raw=true" alt="">
-                                <h3>The Famous Five</h3>
-                                <h4>Guid Blyton</h4>
+                                <h3  class="bookName">The Famous Five</h3>
+                                <h4  class="author">Guid Blyton</h4>
                         </div>
                         <div class="money">
-                            <p>$4.59</p>
-                            <div class="cart">
-                                <h5>Add</h5>
-                                <img id="cart-logo"  src="https://github.com/Snegan29/kidz-world-html-boilerplate/blob/main/assets/cart-icon-white.png?raw=true" alt="">
+                            <p  class="price">$4.59</p>
+                            <div >
+                                <button class="cart">
+                                    <h5>Add</h5>
+                                    <img id="cart-logo" src="https://github.com/Snegan29/kidz-world-html-boilerplate/blob/main/assets/cart-icon-white.png?raw=true" alt="">
+                                </button>
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div class="bookclass">
                         <div>
                             <img id="items"  src="https://github.com/Snegan29/kidz-world-html-boilerplate/blob/main/assets/book3.png?raw=true" alt="">
-                            <h3>Matilda</h3>
-                            <h4>Roald Dahl</h4>
+                            <h3 class="bookName">Matilda</h3>
+                            <h4 class="author">Roald Dahl</h4>
                         </div>
                         <div class="money">
-                            <p>$6.80</p>
-                            <div class="cart">
-                                <h5>Add</h5>
-                                <img id="cart-logo"  src="https://github.com/Snegan29/kidz-world-html-boilerplate/blob/main/assets/cart-icon-white.png?raw=true" alt="">
+                            <p class="price">$6.80</p>
+                            <div >
+                                <button class="cart">
+                                    <h5>Add</h5>
+                                    <img id="cart-logo" src="https://github.com/Snegan29/kidz-world-html-boilerplate/blob/main/assets/cart-icon-white.png?raw=true" alt="">
+                                </button>
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div class="bookclass">
                         <div>
                             <img id="items"  src="https://github.com/Snegan29/kidz-world-html-boilerplate/blob/main/assets/book4.png?raw=true" alt="">
-                            <h3>Harry Potter</h3>
-                            <h4>J.K Rowling</h4>
+                            <h3  class="bookName">Harry Potter</h3>
+                            <h4  class="author">J.K Rowling</h4>
                         </div>
                          <div class="money">
-                            <p>$10</p>
-                            <div class="cart">
-                                <h5>Add</h5>
-                                <img id="cart-logo"  src="https://github.com/Snegan29/kidz-world-html-boilerplate/blob/main/assets/cart-icon-white.png?raw=true" alt="">
+                            <p  class="price">$10</p>
+                            <div >
+                                <button class="cart">
+                                    <h5>Add</h5>
+                                    <img id="cart-logo" src="https://github.com/Snegan29/kidz-world-html-boilerplate/blob/main/assets/cart-icon-white.png?raw=true" alt="">
+                                </button>
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div class="bookclass">
                         <div>
                             <img id="items"  src="https://github.com/Kalvium-Program/kidz-world-html/blob/main/assets/book5.png?raw=true" alt="">
-                            <h3>For Young Readers</h3>
-                            <h4>Ruskin Bond</h4>
+                            <h3 class="bookName">For Young Readers</h3>
+                            <h4  class="author">Ruskin Bond</h4>
                         </div>
                         <div class="money">
-                            <p>$7.29</p>
-                            <div class="cart">
-                                <h5>Add</h5>
-                                <img id="cart-logo"  src="https://github.com/Snegan29/kidz-world-html-boilerplate/blob/main/assets/cart-icon-white.png?raw=true" alt="">
+                            <p  class="price">$7.29</p>
+                            <div >
+                                <button class="cart">
+                                    <h5>Add</h5>
+                                    <img id="cart-logo" src="https://github.com/Snegan29/kidz-world-html-boilerplate/blob/main/assets/cart-icon-white.png?raw=true" alt="">
+                                </button>
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div class="bookclass">
                         <div>
                             <img id="items"  src="https://github.com/Kalvium-Program/kidz-world-html/blob/main/assets/book6.png?raw=true" alt="">
-                            <h3>Wimpy Kid - DIY</h3>
-                            <h4>Jeff Kinney</h4>
+                            <h3  class="bookName">Wimpy Kid - DIY</h3>
+                            <h4  class="author">Jeff Kinney</h4>
                         </div>
                         <div class="money">
-                            <p>$6.80</p>
-                            <div class="cart">
-                                <h5>Add</h5>
-                                <img id="cart-logo"  src="https://github.com/Snegan29/kidz-world-html-boilerplate/blob/main/assets/cart-icon-white.png?raw=true" alt="">
+                            <p  class="price">$6.80</p>
+                            <div >
+                                <button class="cart">
+                                    <h5>Add</h5>
+                                    <img id="cart-logo" src="https://github.com/Snegan29/kidz-world-html-boilerplate/blob/main/assets/cart-icon-white.png?raw=true" alt="">
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
         </div>
-        <div class="Part-1">
+        <div class="Part-2">
             <h1>Discover New Games</h1>
                 <div class="Flexing">
-                    <div>
+                    <div class="bookclass">
                         <div>
                             <img id="items"  src="https://github.com/Kalvium-Program/kidz-world-html/blob/main/assets/dart-board.png?raw=true" alt="">
-                            <h3>Dart Board</h3>
-                            <h4>Wooden Board, 16 inches</h4>
+                            <h3 class="bookName">Dart Board</h3>
+                            <h4 class="author">Wooden Board, 16 inches</h4>
                         </div>
                         <div class="money">
-                            <p>$17.49</p>
-                            <div class="cart">
-                                <h5>Add</h5>
-                                <img id="cart-logo"  src="https://github.com/Snegan29/kidz-world-html-boilerplate/blob/main/assets/cart-icon-white.png?raw=true" alt="">
+                            <p class="price">$17.49</p>
+                            <div >
+                                <button class="cart">
+                                    <h5>Add</h5>
+                                    <img id="cart-logo" src="https://github.com/Snegan29/kidz-world-html-boilerplate/blob/main/assets/cart-icon-white.png?raw=true" alt="">
+                                </button>
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div class="bookclass">
                         <div>
                             <img id="items"  src="https://github.com/Kalvium-Program/kidz-world-html/blob/main/assets/connect-four.png?raw=true" alt="">
-                            <h3>Connect 4</h3>
-                            <h4>Board game, Multiplayer</h4>
+                            <h3 class="bookName">Connect 4</h3>
+                            <h4 class="author">Board game, Multiplayer</h4>
                         </div>
                         <div class="money">
-                            <p>$19.99</p>
-                            <div class="cart">
-                                <h5>Add</h5>
-                                <img id="cart-logo"  src="https://github.com/Snegan29/kidz-world-html-boilerplate/blob/main/assets/cart-icon-white.png?raw=true" alt="">
+                            <p class="price">$19.99</p>
+                            <div >
+                                <button class="cart">
+                                    <h5>Add</h5>
+                                    <img id="cart-logo" src="https://github.com/Snegan29/kidz-world-html-boilerplate/blob/main/assets/cart-icon-white.png?raw=true" alt="">
+                                </button>
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div class="bookclass">
                         <div>
                             <img id="items"  src="https://github.com/Kalvium-Program/kidz-world-html/blob/main/assets/jenga.png?raw=true" alt="">
-                            <h3>Jenga</h3>
-                            <h4>Wooden blocks, 54 pieces</h4>
+                            <h3 class="bookName">Jenga</h3>
+                            <h4 class="author">Wooden blocks, 54 pieces</h4>
                         </div>
                         <div class="money">
-                            <p>$20.99</p>
-                            <div class="cart">
-                                <h5>Add</h5>
-                                <img id="cart-logo"  src="https://github.com/Snegan29/kidz-world-html-boilerplate/blob/main/assets/cart-icon-white.png?raw=true" alt="">
+                            <p class="price">$20.99</p>
+                            <div >
+                                <button class="cart">
+                                    <h5>Add</h5>
+                                    <img id="cart-logo" src="https://github.com/Snegan29/kidz-world-html-boilerplate/blob/main/assets/cart-icon-white.png?raw=true" alt="">
+                                </button>
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div class="bookclass">
                         <div>
                             <img id="items"  src="https://github.com/Kalvium-Program/kidz-world-html/blob/main/assets/monopoly.png?raw=true" alt="">
-                            <h3>Monopoly</h3>
-                            <h4>1.61 x 15.75 x 10.51 inches</h4>
+                            <h3 class="bookName">Monopoly</h3>
+                            <h4 class="author"></h4> 1.61 x 15.75 x 10.51 inches</h4>
                         </div>
                         <div class="money">
-                            <p>$19.49</p>
-                            <div class="cart">
-                                <h5>Add</h5>
-                                <img id="cart-logo"  src="https://github.com/Snegan29/kidz-world-html-boilerplate/blob/main/assets/cart-icon-white.png?raw=true" alt="">
+                            <p class="price">$19.49</p>
+                            <div >
+                                <button class="cart">
+                                    <h5>Add</h5>
+                                    <img id="cart-logo" src="https://github.com/Snegan29/kidz-world-html-boilerplate/blob/main/assets/cart-icon-white.png?raw=true" alt="">
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
         </div>
-        <div class="Part-1">
+        <div class="Part-3">
             <h1>Homemade with love</h1>
                 <div class="Flexing">
-                    <div>
+                    <div class="bookclass">
                         <div>
                             <img id="items"  src="https://github.com/Kalvium-Program/kidz-world-html/blob/main/assets/bookmarks.png?raw=true" alt="">
-                            <h3>Bookmarks</h3>
-                            <h4>Handmade with love</h4>
+                            <h3 class="bookName">Bookmarks</h3>
+                            <h4 class="author">Handmade with love</h4>
                         </div>
                         <div class="money">
-                            <p>$12.49</p>
-                            <div class="cart">
-                                <h5>Add</h5>
-                                <img id="cart-logo"  src="https://github.com/Snegan29/kidz-world-html-boilerplate/blob/main/assets/cart-icon-white.png?raw=true" alt="">
+                            <p class="price">$12.49</p>
+                            <div >
+                                <button class="cart">
+                                    <h5>Add</h5>
+                                    <img id="cart-logo" src="https://github.com/Snegan29/kidz-world-html-boilerplate/blob/main/assets/cart-icon-white.png?raw=true" alt="">
+                                </button>
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div class="bookclass">
                         <div>
                             <img id="items"  src="https://github.com/Kalvium-Program/kidz-world-html/blob/main/assets/birthday-card.png?raw=true" alt="">
-                            <h3>Birthday Card</h3>
-                            <h4>Handmade with love</h4>
+                            <h3 class="bookName">Birthday Card</h3>
+                            <h4 class="author">Handmade with love</h4>
                         </div>
                         <div class="money">
-                            <p>$19.99</p>
-                            <div class="cart">
-                                <h5>Add</h5>
-                                <img id="cart-logo"  src="https://github.com/Snegan29/kidz-world-html-boilerplate/blob/main/assets/cart-icon-white.png?raw=true" alt="">
+                            <p class="price">$19.99</p>
+                            <div >
+                                <button class="cart">
+                                    <h5>Add</h5>
+                                    <img id="cart-logo" src="https://github.com/Snegan29/kidz-world-html-boilerplate/blob/main/assets/cart-icon-white.png?raw=true" alt="">
+                                </button>
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div class="bookclass">
                         <div>
                             <img id="items"  src="https://github.com/Kalvium-Program/kidz-world-html/blob/main/assets/stuffed-toy.png?raw=true" alt="">
-                            <h3>Stuffed Toys</h3>
-                            <h4>Handmade with love</h4>
+                            <h3 class="bookName">Stuffed Toys</h3>
+                            <h4 class="author">Handmade with love</h4>
                         </div>
                         <div class="money">
-                            <p>$15.99</p>
-                            <div class="cart">
-                                <h5>Add</h5>
-                                <img id="cart-logo"  src="https://github.com/Snegan29/kidz-world-html-boilerplate/blob/main/assets/cart-icon-white.png?raw=true" alt="">
+                            <p class="price">$15.99</p>
+                            <div >
+                                <button class="cart">
+                                    <h5>Add</h5>
+                                    <img id="cart-logo" src="https://github.com/Snegan29/kidz-world-html-boilerplate/blob/main/assets/cart-icon-white.png?raw=true" alt="">
+                                </button>
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div class="bookclass">
                         <div>
                             <img id="items"  src="https://github.com/Kalvium-Program/kidz-world-html/blob/main/assets/dream-catcher.png?raw=true" alt="">
-                            <h3>Dream catcher Drawing</h3>
-                            <h4>Handmade with love</h4>
+                            <h3 class="bookName">Dream catcher Drawing</h3>
+                            <h4 class="author">Handmade with love</h4>
                         </div>
                         <div class="money">
-                            <p>$18.49</p>
-                            <div class="cart">
-                                <h5>Add</h5>
-                                <img id="cart-logo"  src="https://github.com/Snegan29/kidz-world-html-boilerplate/blob/main/assets/cart-icon-white.png?raw=true" alt="">
+                            <p class="price">$18.49</p>
+                            <div >
+                                <button class="cart">
+                                    <h5>Add</h5>
+                                    <img id="cart-logo" src="https://github.com/Snegan29/kidz-world-html-boilerplate/blob/main/assets/cart-icon-white.png?raw=true" alt="">
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -247,5 +276,6 @@
             <p>Tak to me at krishti@gmail.com</p>
         </div>
     </footer>
+    <script src="app.js"></script>
 </body>
 </html>
