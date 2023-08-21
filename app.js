@@ -39,10 +39,9 @@ inCart.addEventListener("click", function() {
         const index = cartItems[i];
         const selected = books[index];
         const price = parseFloat(selected.querySelector(".price").textContent.slice(1));
-        console.log(price)
 
         total += price; 
-        // console.log(total)
+        console.log(total)
     }
 
     const cartTotal = document.querySelector("#cartTotal");
