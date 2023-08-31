@@ -61,7 +61,7 @@ h5 {
 .Flexing {
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
 }
@@ -82,6 +82,7 @@ h5 {
 .money{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -115,6 +116,7 @@ footer{
     width: 150px;
     border-radius: 100px;
 }
+
 
 @media (max-width:500px) {
     .Flexing {
